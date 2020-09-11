@@ -9,7 +9,7 @@ public class LoginTest {
 	public void TestFireFox(){
 	 System.setProperty("webdriver.gecko.driver", "C:\\Users\\Vinod Khandekar\\Desktop\\SeleniumJars\\geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
-	 
+	 //
 	driver.manage().window().maximize();
 	 
 	driver.get("http://www.google.com");
